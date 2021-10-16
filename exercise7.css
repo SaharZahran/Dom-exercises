@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul#playlist {
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul#playlist li {
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px;
+    background-image: linear-gradient(#f9f9f9, #e3e3e3);
+}
+
+ul#playlist li:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+ul#playlist li:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+li button {
+    margin: 0 13rem;
+    background-color: rgb(243, 167, 167);
+    color: whitesmoke;
+    padding: 0.2rem 2rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+}
+
+li button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
